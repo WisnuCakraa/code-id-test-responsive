@@ -2,15 +2,15 @@ import React from "react";
 import "./style.css";
 export default function component() {
   return (
-    <div class="card">
-      <div class="card-content">
-        <div class="card-side card-body">
+    <div className="card">
+      <div className="card-content">
+        <div className="card-side card-body">
           <h2>FILTER</h2>
           <div className="border-bottom" />
           <form>
-            <div class="form-group">
+            <div className="form-group">
               <button
-                class="btn btn-secondary dropdown-toggle form-control button-group"
+                className="btn btn-secondary dropdown-toggle form-control button-group"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -19,16 +19,19 @@ export default function component() {
               >
                 KISARAN HARGA
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
                   harga
                 </a>
               </div>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <button
-                class="btn btn-secondary dropdown-toggle form-control button-group"
+                className="btn btn-secondary dropdown-toggle form-control button-group"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -37,16 +40,19 @@ export default function component() {
               >
                 MERK MOBIL
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
                   merk
                 </a>
               </div>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <button
-                class="btn btn-secondary dropdown-toggle form-control button-group"
+                className="btn btn-secondary dropdown-toggle form-control button-group"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -55,16 +61,19 @@ export default function component() {
               >
                 MODEL MOBIL
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
                   model
                 </a>
               </div>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <button
-                class="btn btn-secondary dropdown-toggle form-control button-group"
+                className="btn btn-secondary dropdown-toggle form-control button-group"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -73,16 +82,19 @@ export default function component() {
               >
                 TRANSMISI
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
                   transmisi
                 </a>
               </div>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <button
-                class="btn btn-secondary dropdown-toggle form-control button-group"
+                className="btn btn-secondary dropdown-toggle form-control button-group"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -91,8 +103,11 @@ export default function component() {
               >
                 BAHAN BAKAR
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
                   bahan bakar
                 </a>
               </div>
@@ -100,7 +115,7 @@ export default function component() {
 
             <button
               type="submit"
-              class="button btn btn-primary button-group form-control"
+              className="button btn btn-primary button-group form-control"
             >
               Submit
             </button>
